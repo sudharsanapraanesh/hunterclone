@@ -1,0 +1,241 @@
+
+*{
+    font-family: 'Arimo', sans-serif;
+}
+/* navigation section */
+.dropdown-menu a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-menu{display: block;}
+
+.dropdown:hover .dropdown-item {background-color: #fcfdfc;}
+
+.drp_para{
+    font-size: small;
+}
+.container_start{
+    background-color: rgb(219, 218, 218);
+}
+.navbar-brand{
+    margin-left: 18%;
+}
+.logo{
+    height:4vh;
+}
+.btn{
+    color: black;
+}
+.btn_1{
+    background: #ff530f;
+    padding:1%;
+    padding-left:1.5%;
+    padding-right: 1.5%;
+    border-radius: 5px;
+    color: white;
+    margin-right: 25%;
+    text-decoration: none;
+    pointer-events: none;
+}
+/* container-1 */
+.container_1{
+    background: rgba(247, 245, 245, 0.425);
+    text-align: center;
+    padding-top: 7%;
+}
+.first_para{
+    opacity: 0.7;
+    font-size:20px;
+}
+.url{
+    margin-top: 5%;
+    width:45%;
+    margin-left: 27%;
+    padding-top: 1%;
+    background-color: white;
+    padding:2%;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+}
+.url p{
+    opacity: 0.7;
+    margin-right: 5%;
+    margin-right: 10%;
+}
+.find{
+    padding:2.3%;
+    background-color:#ff530f;
+    color:white;
+    border-top-right-radius:0.2rem;
+    border-bottom-right-radius:0.2rem;
+    text-decoration: none;
+    pointer-events: none;
+}
+.first_para,.second_para,.fifth_para{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    width:70%;
+    height: 3rem;
+    border:1px solid #f39e7c;
+     border-top-left-radius:0.2rem;
+    border-bottom-left-radius:0.2rem;
+}
+.url p{
+    margin-top: 2%;
+    margin-right: 20%;
+}
+.container_1 .para{
+    padding-top: 4%;
+}
+.companylogo{
+    padding-top: 2%;
+    margin-left: 40%;
+    justify-content: space-between;
+    opacity: 0.3;
+}
+.first-r{
+     left: 20%;position: absolute;
+    }
+.second-r{ 
+    left: 30%; position: absolute;
+ }
+.third-r{
+     left: 40%; position: absolute;
+     }
+.fourth-r{
+    left:  50%; position: absolute;
+ }
+.fifth-r{
+     left: 60%; position: absolute; 
+}
+.sixth-r{
+     left: 70%; position: absolute; 
+}
+/* container-2 */
+
+.container_2 .head{
+    padding-top: 8%;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.container_2 h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.receive{
+    margin-left: 43%;
+}
+.hl{
+        width: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(11, 87, 100);
+}
+/* container-3 */
+.container_3_image{
+    padding-top: 15%;
+    margin-left: 20%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content{
+    margin-right:5%;
+    padding-top: 5%;
+    opacity: 0.5;
+}
+.content:hover{
+    opacity: 1.0;
+}
+
+.third_para{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+/* container-4 */
+.container_4{
+ padding-left: 18%;
+ padding-top: 5%;
+}
+.container_4 p,.content_1 p{
+    opacity:0.5
+}
+.container_4 h4,.content_1 h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.fourth_para{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.hl1{
+    width:40%;
+    margin-right: 60%;
+    color: rgb(11, 87, 100);
+    text-decoration: none;
+
+}
+/* container-5 */
+.container_5{
+    text-align: center;
+    padding-bottom: 3%;
+    background: url(./images/map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:700px;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 5%;
+    
+}
+.container_5 h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+.container_5 span{
+    font-size: 22px;
+    opacity: 0.9;
+}
+.learn{
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    border-radius:5%;
+    padding:2.5%;
+    pointer-events: none;
+}
+
+/* footer */
+.footer{
+    padding-top:13%;
+    padding-bottom: 1%;
+    background: rgb(39, 39, 39);
+    color: rgb(209, 207, 207);
+    padding:3%;
+}
+.block li{
+    opacity:0.7;
+}
+.block li:hover{
+    opacity: 1.0;
+}
+.block li{
+    list-style: none;
+}
+.icons{
+    margin-left: 45%;
+    font-size: x-large;
+    padding-top: 5%;
+}
+.hl2{
+    background: rgb(179, 178, 178);
+    width:5rem
+}
+.copy{
+    text-align: center;
+    font-size: small;
+    opacity:0.6;
+}
