@@ -67,4 +67,7 @@
        .container_3,.content,.inner{
       display: none;
     }
+     .container_4{
+        margin-right: 10%;
+    }
 }
